@@ -1,0 +1,75 @@
+.rsbopp-nav {
+    background-color: #1463f7 !important;
+    padding: 0.5rem 2.5rem !important;
+}
+
+.signing-icon {
+    color: #ffffff !important;
+    font-size: 1.85rem;
+    font-weight: 800 !important;
+    
+}
+.rsbopp-login{
+    display: flex !important;
+    align-items: center !important;
+    
+}
+
+.rsbopp-login-text {
+    font-size: 0.856rem !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+}
+
+.get-started {
+    background-color: #ffffff !important;
+    color: #1463f7;
+   
+}
+
+.get-started:hover {
+    background-color: #042664 !important;
+    color: #ffffff;
+}
+
+.corporate-reg {
+    background-image: url('/fgnn.png') !important;
+    background-color: rgb(104, 104, 243) !important;
+    background-blend-mode: multiply !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    opacity: 0.8 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    height: 100% !important;
+    
+}
+
+.hero {
+    background-color: #1463f7 !important;
+}
+
+.hero-text {
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+.rsbopp-desc {
+    background-color: #749deb;
+    color: #ffffff !important;
+}
+
+.rsbopp-desc-btn {
+    color: #ffffff !important;
+}
+
+/* footer */
+
+.footer {
+    display: flex  !important;
+    width: 100% !important;
+    gap: 4 !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}

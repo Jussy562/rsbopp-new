@@ -1,0 +1,52 @@
+.media {
+    display: flex;
+    height: 90vh;
+    width: auto;
+    
+    align-items: flex-start;
+    background-color: #ffffff;
+    
+    
+
+  }
+  .user-table th {
+  
+    text-align: center;
+    
+    top: 0;
+    left: 0;
+    background-color: rgb(211, 211, 211) !important;
+    opacity: 1;
+    border: none !important;
+  
+    
+   
+    
+  }
+
+  .prevNext-btn {
+    color: #ffffff !important;
+  }
+
+  .prevNext-num {
+    background-color: #ffffff!important;
+    color: #1ea0f7 !important;
+  }
+
+  .user-table,.table-container, th, td {
+    border-collapse: collapse !important;
+    padding: 1rem !important;
+    border: none !important;
+  }
+
+  .data-row {
+    border: rgb(35, 174, 255) 0.2rem solid;
+    border-left: none !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+  }
+
+  .active {
+    background: #1ea0f7;
+    color: white;
+}
