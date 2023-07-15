@@ -13,25 +13,25 @@ function Footer() {
           </div>
           <Row className=' gap-4'>
             
-            <div className='footer'>
-            <a href='#' className='flex flex-row items-center gap-2 text-blue-800 text-sm'>
+            <div className='footer p-0'>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
               <RiMailFill />
-              <p>info@rsbopp.rv.gov.ng</p>
+              <p className='m-0 p-0 '>info@rsbopp.rv.gov.ng</p>
             </a>
             
-            <a href='#' className='flex flex-row items-center gap-2 text-blue-800 text-sm'>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
               <MdLocalPhone />
-              <p>+234 703 604 5719</p>
+              <p className='m-0 p-0 '>+234 703 604 5719</p>
             </a>
            
-           <p className='text-blue-800 font-light text-sm'>Copyright &copy; 2023</p>
+           <p className='p-0 m-0'>Copyright &copy; 2023</p>
         
-            <a href='#' className='flex flex-row items-center gap-2 text-blue-800 text-sm'>
-              <p>Terms & Conditions</p>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
+              <p className='p-0 m-0'>Terms & Conditions</p>
             </a>
            
-            <a href='#' className='flex flex-row items-center gap-2 text-blue-800 text-sm'>
-              <p>Policy & Privacy</p>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
+              <p className='m-0 p-0'>Policy & Privacy</p>
             </a>
             </div>
             

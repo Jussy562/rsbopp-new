@@ -24,6 +24,8 @@
     
   }
 
+
+
   .prevNext-btn {
     color: #ffffff !important;
   }
@@ -40,7 +42,7 @@
   }
 
   .data-row {
-    border: rgb(35, 174, 255) 0.2rem solid;
+    border: rgb(35, 174, 255) 0.2rem solid !important;
     border-left: none !important;
     border-top: 0 !important;
     border-right: 0 !important;

@@ -13,7 +13,7 @@ function Navbar() {
       <div className=' py-3 px-10 rsbopp-nav'>
         <Container fluid className='p-0 m-0'>
           <Row className='justify-content-between align-items-center'>
-            <Col xs={12} md={6} className='d-flex justify-content-start align-items-center'>
+            <Col xs={12} md={6} className='d-flex justify-content-start align-items-center rsbopp-sign'>
               <div className='d-flex gap-2 text-white justify-content-between  align-items-center cursor-pointer rsbopp-login'>
                 <RiLoginBoxFill className='text-white font-extrabold text-3xl signing-icon' />
                 <p className='text-sm rsbopp-login-text'>Sign In</p>
@@ -24,13 +24,15 @@ function Navbar() {
                 </Button>
               </div>
             </Col>
-            <Col xs={12} md={6} className='d-flex justify-content-end align-items-center'>
+            <Col xs={12} md={6} className='d-flex flex-rows justify-content-end align-items-center' >
+              <div className='d-flex justify-content-end align-items-center rsbopp-search rounded-5 p-1'>
               <div className='text-lg text-gray-300'>
                 <AiOutlineSearch />
               </div>
-              <input type='search' id='search' className='block w-full p-0 text-sm text-gray-900 border border-none rounded-lg bg-none focus:ring-none focus:border-none focus:outline-none dark:bg-none dark:border-none dark:placeholder-gray-400 dark:text-white dark:focus:ring-none dark:focus:border-none' placeholder='Category' />
-              <div className='pl-2 border border-gray-300 border-r-0 border-b-0 border-t-0 text-gray-300'>
+              <input type='search' id='search' className='p-0 border-0 rounded-lg bg-none focus:ring-none focus:border-none focus:outline-none dark:bg-none dark:border-none dark:placeholder-gray-400 dark:text-white dark:focus:ring-none dark:focus:border-none' placeholder='Category' />
+              <div className='pl-2 border border-0 border-r-0 border-b-0 border-t-0 text-gray-300'>
                 <TbTriangleInvertedFilled />
+              </div>
               </div>
             </Col>
           </Row>
@@ -39,7 +41,7 @@ function Navbar() {
       <div className='bg-white py-3 px-10'>
         <Container fluid className='p-0'>
           <Row className='justify-content-between align-items-center w-100'>
-            <Col  className='d-flex justify-content-start align-items-center mb-6 w-100'>
+            <Col  className='d-flex justify-content-between align-items-center mb-6 w-100'>
               <div>
                 <img src={rsbopp} alt='rsbopp' />
               </div>
@@ -49,19 +51,19 @@ function Navbar() {
             </Col>
             
           </Row>
-          <Row className='justify-content-between align-items-center w-100'>
-          <Col  className='d-flex justify-content-end align-items-center'>
-              <a href='#' className='d-flex gap-2 text-blue-800 text-sm'>
+          <Row className='justify-content-center align-items-center w-100'>
+          <Col  className='d-flex justify-content-center align-items-center rsbopp-nav-contact gap-5'>
+              <a href='#' className='d-flex justify-content-center align-items-center gap-2 text-blue-800'>
                 <RiMailFill />
-                <p>info@rsbopp.rv.gov.ng</p>
+                <p className='p-0 m-0'>info@rsbopp.rv.gov.ng</p>
               </a>
-              <a href='#' className='d-flex gap-2 text-blue-800 text-sm'>
+              <a href='#' className='d-flex justify-content-center   align-items-center gap-2 text-blue-800'>
                 <MdLocationOn />
-                <p>Water Line House, 169 Aba Road, Port Harcourt</p>
+                <p className='p-0 m-0'>Water Line House, 169 Aba Road, Port Harcourt</p>
               </a>
-              <a href='#' className='d-flex gap-2 text-blue-800 text-sm'>
+              <a href='#' className='d-flex align-items-center justify-content-center  gap-2 text-blue-800'>
                 <MdLocalPhone />
-                <p>+234 703 604 5719</p>
+                <p className='p-0 m-0'>+234 703 604 5719</p>
               </a>
             </Col>
           </Row>

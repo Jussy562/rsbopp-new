@@ -26,16 +26,16 @@ function TableComponent() {
     <div className="media h-auto">
       <div className="media-body w-full">
         <div className='d-flex flex-row justify-start align-items-center'>
-          <Button color="primary" className="p-2 text-sm rounded-none">Bids Open for Bidding</Button>
-          <Button color="danger" className="p-2 d-flex flex-row align-items-center justify-content-center gap-2 text-sm rounded-none">
+          <Button color="primary" className="p-2 text-sm rounded-0">Bids Open for Bidding</Button>
+          <Button color="danger" className="p-2 d-flex flex-row align-items-center justify-content-center gap-2 text-sm rounded-0">
             Closed Bids <RiFolderTransferFill />
           </Button>
         </div>
 
-        <div className='table-container w-full text-black'>
-          <Table bordered className="p-0 md:p-4 bg-white">
-            <thead>
-              <tr className='text-center'>
+        <div className='table-container w-full text-black p-0 m-0'>
+          <Table bordered className="p-0 md:p-4 bg-white user-table">
+            <thead className='border-0'>
+              <tr className='text-center border-0'>
                 <th className='text-sm'>Mda</th>
                 <th className='text-sm'>Bid #</th>
                 <th className='text-sm'>Bid Name</th>
