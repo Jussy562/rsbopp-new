@@ -48,6 +48,7 @@
 .rsbopp-nav-contact {
     display: flex !important;
     row-gap: 5 !important;
+    font-size: 0.90rem !important;
 }
 
 .corporate-reg {
@@ -92,4 +93,10 @@
     gap: 2 !important;
     justify-content: space-between !important;
     align-items: center !important;
+    font-size: 0.90rem !important;
+    /* color: #02173d !important; */
+}
+
+.rsbopp-footer {
+    color: #0648c2 !important;
 }

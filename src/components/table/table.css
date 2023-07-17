@@ -46,6 +46,7 @@
     border-left: none !important;
     border-top: 0 !important;
     border-right: 0 !important;
+    font-size: 0.80rem !important;
   }
 
   .active {

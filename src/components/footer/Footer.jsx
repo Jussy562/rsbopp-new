@@ -14,24 +14,24 @@ function Footer() {
           <Row className=' gap-4'>
             
             <div className='footer p-0'>
-            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2 rsbopp-footer'>
               <RiMailFill />
               <p className='m-0 p-0 '>info@rsbopp.rv.gov.ng</p>
             </a>
             
-            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2 rsbopp-footer'>
               <MdLocalPhone />
               <p className='m-0 p-0 '>+234 703 604 5719</p>
             </a>
            
-           <p className='p-0 m-0'>Copyright &copy; 2023</p>
+           <p className='p-0 m-0 rsbopp-footer'>Copyright &copy; 2023</p>
         
-            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
-              <p className='p-0 m-0'>Terms & Conditions</p>
+            <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2 rsbopp-footer'>
+              <p className='p-0 m-0 rsbopp-footer'>Terms & Conditions</p>
             </a>
            
             <a href='#' className='d-flex flex-rows justify-content-center  align-items-center gap-2'>
-              <p className='m-0 p-0'>Policy & Privacy</p>
+              <p className='m-0 p-0 rsbopp-footer'>Policy & Privacy</p>
             </a>
             </div>
             

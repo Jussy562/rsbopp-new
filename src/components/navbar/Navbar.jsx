@@ -10,7 +10,7 @@ import rsvv from '/rsvv.png';
 function Navbar() {
   return (
     <div>
-      <div className=' py-3 px-10 rsbopp-nav'>
+      <div className=' py-3 px-5 rsbopp-nav'>
         <Container fluid className='p-0 m-0'>
           <Row className='justify-content-between align-items-center'>
             <Col xs={12} md={6} className='d-flex justify-content-start align-items-center rsbopp-sign'>
@@ -38,8 +38,8 @@ function Navbar() {
           </Row>
         </Container>
       </div>
-      <div className='bg-white py-3 px-10'>
-        <Container fluid className='p-0'>
+      <div className=' py-3 px-5'>
+        <Container fluid className='p-0 m-0'>
           <Row className='justify-content-between align-items-center w-100'>
             <Col  className='d-flex justify-content-between align-items-center mb-6 w-100'>
               <div>
@@ -52,16 +52,16 @@ function Navbar() {
             
           </Row>
           <Row className='justify-content-center align-items-center w-100'>
-          <Col  className='d-flex justify-content-center align-items-center rsbopp-nav-contact gap-5'>
-              <a href='#' className='d-flex justify-content-center align-items-center gap-2 text-blue-800'>
+          <Col  className='d-flex justify-content-center align-items-center rsbopp-nav-contact gap-5 '>
+              <a href='#' className='d-flex justify-content-center align-items-center gap-2 text-blue-800 rsbopp-footer'>
                 <RiMailFill />
                 <p className='p-0 m-0'>info@rsbopp.rv.gov.ng</p>
               </a>
-              <a href='#' className='d-flex justify-content-center   align-items-center gap-2 text-blue-800'>
+              <a href='#' className='d-flex justify-content-center   align-items-center gap-2 text-blue-800 rsbopp-footer'>
                 <MdLocationOn />
                 <p className='p-0 m-0'>Water Line House, 169 Aba Road, Port Harcourt</p>
               </a>
-              <a href='#' className='d-flex align-items-center justify-content-center  gap-2 text-blue-800'>
+              <a href='#' className='d-flex align-items-center justify-content-center  gap-2 text-blue-800 rsbopp-footer'>
                 <MdLocalPhone />
                 <p className='p-0 m-0'>+234 703 604 5719</p>
               </a>
